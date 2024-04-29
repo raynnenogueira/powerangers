@@ -6,7 +6,7 @@ services:
     container_name: go
     working_dir: /app
     volumes:
-      - C:\Users\YS-SUPORTE\powerangers-docker
+      - C:\Users\YS-SUPORTE\powerangers-docker\powerangers
     command: go run main.go
     ports:
       - "8080:8080"
