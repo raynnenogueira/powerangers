@@ -52,7 +52,7 @@ func main() {
 	// Inicialize um novo cliente graylog com TCP
 	g, err := graylog.NewGraylog(graylog.Endpoint{
 		Transport: graylog.TCP,
-		Address:   "172.30.0.1",
+		Address:   "172.19.0.7",
 		Port:      12201,
 	})
 	if err != nil {
